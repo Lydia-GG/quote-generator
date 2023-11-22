@@ -46,7 +46,7 @@ const App = () => {
               href={`https://twitter.com/intent/tweet?text='${quote.content}' Said by: ${quote.author}`}
               target="_blank"
             >
-              <i class="fa-brands fa-square-twitter fa-2xl"></i>
+              <i className="fa-brands fa-square-twitter fa-2xl"></i>
             </a>
           </li>
           <li>
@@ -55,7 +55,7 @@ const App = () => {
               href={`https://web.whatsapp.com/send?text=${quote.content} Said by: ${quote.author}`}
               target="_blank"
             >
-              <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+              <i className="fa-brands fa-square-whatsapp fa-2xl"></i>
             </a>
           </li>
         </ul>
